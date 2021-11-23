@@ -24,7 +24,7 @@ class VisionTestScreen extends StatelessWidget {
         centerTitle: true,
         elevation: 0,
         title: const Text(
-          "दृष्टि जाँच गर्नुहोस्",
+          "दृष्टि जाँच",
           style: TextStyle(
             fontSize: 18,
           ),
