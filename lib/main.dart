@@ -10,9 +10,14 @@ void main() {
   ));
 }
 
-class VisionTestScreen extends StatelessWidget {
+class VisionTestScreen extends StatefulWidget {
   const VisionTestScreen({Key? key}) : super(key: key);
 
+  @override
+  State<VisionTestScreen> createState() => _VisionTestScreenState();
+}
+
+class _VisionTestScreenState extends State<VisionTestScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,13 +33,14 @@ class VisionTestScreen extends StatelessWidget {
         backgroundColor: Colors.deepPurple,
       ),
       body: SafeArea(
-          child: Column(
-        children: [
-          Text(
-            "Roshan",
-          )
-        ],
-      )),
+        child: Column(
+          children: [
+            Text(
+              "Roshan",
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
