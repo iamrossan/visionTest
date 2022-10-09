@@ -86,7 +86,7 @@ class VisionTestScreen extends StatelessWidget {
                             ),
                           ),
                           ClipRRect(
-                            borderRadius: BorderRadius.circular(20),
+                            borderRadius: BorderRadius.circular(20), //define border radius
                             child: Image.asset(
                               "assets/images/vision/" +
                                   data[index - 1]["image"],
