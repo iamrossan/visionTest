@@ -20,7 +20,7 @@ class VisionTestScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: true,
-      appBar: AppBar(
+      appBar: AppBar( //define appbar of the application
         centerTitle: true,
         elevation: 0,
         title: const Text(
